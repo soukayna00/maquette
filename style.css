@@ -1,3 +1,4 @@
+
 body{
     margin:0px;
     padding:0px;
@@ -77,7 +78,7 @@ nav{
     text-align: center;
     margin-top: -90px;
     color:c#595959;
-    font-size: 15px;
+    font-size: 20px;
 }
 .d1 p{
     text-align:left;
@@ -93,4 +94,174 @@ nav{
     font-weight: normal;
     font-size: 35px;
     line-height: 200px;
+}
+input[type=text], select {
+    width: 70%;
+    padding: 3px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 100%;
+    color: white;
+    padding: 3px 20px;
+    margin: 7px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]{
+    background-color: #f38e59;
+    width:15%;
+     float: right;
+  }
+  textarea {
+    width: 70%;
+    height: 150px;
+    padding: 3px 20px;
+    box-sizing: border-box;
+    border-radius: 4PX;
+    background-color: #ffffff;
+    font-size: 13px;
+    resize: none;
+    border: 1px solid #ccc;
+    font-family: "proxima-nova", sans-serif ;
+    color: #595959;
+    margin: 8px 0;
+    
+   }
+   .d3 h4{
+    color: #6DBBDE ;
+    margin-top: 20px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 200px;
+}
+.d3 p{
+    text-align:left;
+    margin-top: -90px;
+    color:c#595959;
+    font-size: 20px;
+}
+.d3 h5{
+    color: #000000 ;
+    margin-top: 20px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 70px;
+
+}
+.section{
+    display: flex;
+    margin-left: 20px;
+    margin-top : 20px;
+ 
+}
+ .section1{
+    width: 60%;
+    height: 80px;
+ }
+
+ .section2  p{
+    font-family: "Roboto", sans-serif;   
+    font-size: 15px;
+ }
+ .section1 p{
+    font-family: "Roboto", sans-serif;   
+    font-size: 15px;
+ }
+ .fb{
+     display : flex;
+ }
+ .fb p{
+    margin-left: 20px;
+ }
+.Twitter{
+     display: flex;
+}
+
+.link{
+    display: flex;
+}
+.link p{
+    margin-left: 20px;
+    }
+.Twitter p{
+     margin-left: 20px;
+}
+span{
+    color: #f38e59;
+     }
+footer{
+    background-color: rgba(64, 64, 64, 1);
+    margin-top: 100px;
+}
+.leslistes{
+display: flex;
+}
+.liste1{
+    display: flex;
+    }
+.liste2{
+        display: flex;
+ }
+ .liste3{
+    display: flex;
+    }
+.liste4{
+        display: flex;
+        }
+.liste5{
+            display: flex;
+            }
+.liste6{
+                display: flex;
+                }
+.leslistes li{
+color: rgb(116, 116, 116) ;
+text-decoration: none;
+}
+.leslistes h5{
+ color: rgb(252, 252, 252) ;
+}
+.leslistes ul li{
+    list-style: none;
+    margin-right: 10px;
+   }
+  .icons{
+    color: #f38e59;
+  }
+  input[type=submit1] {
+    width: 100%;
+    color: white;
+    padding: 40px 80px;
+    margin: 6px 4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit1]{
+    background-color:rgba(3, 32, 48, 1);
+    width: 260px;
+    height: 0px;
+}
+.footer-copyright{
+    background-color:#333333 ;
+    line-height: 2,5em;
+    width: 100%;
+    margin-top: -31px;
+}
+.copyright p{
+   color: #909090;  
+}
+.copyright a {
+    text-decoration: none;
+    color: #f49b6c;
 }
